@@ -1,0 +1,21 @@
+p {
+  background-color: red;
+}
+
+div p {
+  background-color: aqua;
+}
+div p:hover {
+  background-color: deeppink;
+}
+div span {
+  background-color: paleturquoise;
+}
+div h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+div h1:hover {
+  font-style: italic;
+}
+
+/*# sourceMappingURL=style.css.map */

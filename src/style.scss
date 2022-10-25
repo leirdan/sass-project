@@ -1,0 +1,21 @@
+p {
+    background-color: red
+}
+
+div {
+    p {
+        background-color: aqua;
+        &:hover{
+            background-color:deeppink
+        }
+}
+    span{
+        background-color: paleturquoise;
+    }
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        &:hover{
+            font-style: italic;
+        }
+    }
+}
