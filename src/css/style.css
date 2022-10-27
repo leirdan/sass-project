@@ -1,3 +1,57 @@
+.btn, .btn-secondary, .btn-primary {
+  width: 10rem;
+  border: 0;
+  border-radius: 9px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+.btn:disabled, .btn-secondary:disabled, .btn-primary:disabled {
+  background-color: gray;
+}
+
+.btn-primary {
+  background-color: #6B2AEE;
+}
+.btn-primary:hover {
+  background-color: coral;
+}
+
+.btn-secondary {
+  background-color: #02E7D9;
+}
+.btn-secondary:hover {
+  background-color: coral;
+}
+
+.mt-2 {
+  margin-top: 2px;
+}
+
+.mt-3 {
+  margin-top: 3px;
+}
+
+.mt-4 {
+  margin-top: 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+
+#form-texts {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   background-color: rgb(24, 22, 22);
   color: white;
@@ -8,28 +62,8 @@ header h1:hover {
   font-style: italic;
 }
 
-form label {
+#form-texts p {
   font-family: "Courier New", Courier, monospace;
-}
-
-.btn, .btn-secondary, .btn-primary {
-  width: 10rem;
-  border: 0;
-  border-radius: 9px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 5px;
-  background-color: orangered;
-}
-.btn:hover, .btn-secondary:hover, .btn-primary:hover {
-  background-color: orange;
-}
-
-.btn-secondary {
-  background-color: coral;
-}
-
-.mt-3 {
-  margin-top: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */

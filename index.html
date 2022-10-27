@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
     <title>Character generator</title>
 </head>
+
 <body>
     <header>
-        <h1>Welcome to your character generator!</h1>
+        <h1 class="text-center">Welcome to your character generator!</h1>
     </header>
     <main>
-        <button class="btn-primary" id="btn-continue" onclick="renderTextContinue()"> Continue </button>
-        <button class="btn-secondary mt-3"> Exit </button>
-        <div id="form-texts">
-            <p id="text"></p>
+        <div class="container">
+            <button class="btn-primary" id="btn-continue" onclick="renderTextContinue()">
+                Continue
+            </button>
+            <button class="btn-secondary mt-3">Exit</button>
+            <div id="form-texts">
+                <p id="text"></p>
+            </div>
         </div>
     </main>
     <script src="./src/fragments/mainPage.js"></script>
 </body>
+
 </html>

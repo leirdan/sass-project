@@ -1,0 +1,25 @@
+.mt-2 {
+  margin-top: 2px;
+}
+
+.mt-3 {
+  margin-top: 3px;
+}
+.mt-4 {
+  margin-top: 4px;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+
+#form-texts {
+  display: flex;
+  flex-direction: column;
+}

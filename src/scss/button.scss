@@ -1,0 +1,25 @@
+.btn {
+    width: 10rem;
+    border: 0;
+    border-radius: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px; 
+    &:disabled{
+        background-color: gray
+    }
+    
+}
+.btn-primary {
+    @extend .btn;
+    background-color:$primary-color;
+    &:hover{
+        background-color: $hover-color;
+    }
+}
+.btn-secondary {
+    @extend .btn;
+    background-color: $secondary-color;
+    &:hover{
+        background-color: $hover-color;
+    }
+}

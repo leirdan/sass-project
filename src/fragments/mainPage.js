@@ -2,7 +2,7 @@ const text = document.getElementById("text");
 const btnContinue = document.getElementById("btn-continue");
 const div = document.getElementById("form-texts");
 const button = document.createElement(`button`);
-button.classList = "btn";
+button.classList = "btn-primary";
 const textButton = document.createTextNode(`Do you wanna re-roll?`);
 const attributes = [
   "Strength",
