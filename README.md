@@ -16,6 +16,6 @@
 - Arquivos SASS têm a extensão ".scss"
 - O HTML não entende o arquivo ".scss", necessitando compilá-lo primeiramente em CSS
 - Devemos instalar o SASS globalmente na máquina por meio do comando _npm install -g sass_
-- Após isso, devemos dar o seguinte comando: _sass src/style.scss:src/style.css --watch_
+- Após isso, devemos dar o seguinte comando: _sass src/scss/style.scss:src/css/style.css --watch_
 - O comando acima compila o arquivo "style.scss" em "style.css" dentro da pasta "src"
 - Outra alternativa: _sass . --watch_, que monitora e compila todos os arquivos SASS do projeto.

@@ -1,25 +1,31 @@
+@mixin button-style($back-color, $hover-color) {
+  background-color: $back-color;
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+
 .btn {
-    width: 10rem;
-    border: 0;
-    border-radius: 9px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5px; 
-    &:disabled{
-        background-color: gray
-    }
-    
+  width: 10rem;
+  border: 0;
+  border-radius: 9px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  &:disabled {
+    background-color: gray;
+  }
 }
 .btn-primary {
-    @extend .btn;
-    background-color:$primary-color;
-    &:hover{
-        background-color: $hover-color;
-    }
+  @extend .btn;
+  @include button-style(
+    $primary-color,
+    $hover-color
+  ); // usando o mixin "button-style"
 }
 .btn-secondary {
-    @extend .btn;
-    background-color: $secondary-color;
-    &:hover{
-        background-color: $hover-color;
-    }
+  @extend .btn;
+  background-color: $secondary-color;
+  &:hover {
+    background-color: $hover-color;
+  }
 }

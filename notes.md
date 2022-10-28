@@ -15,6 +15,11 @@ Uma excelente maneira de organizar o código CSS é criando pequenos arquivos SC
 As variáveis funcionam como em qualquer outra linguagem de programação, podendo armazenar valores e serem chamadas em qualquer parte do código. A vantagem de usar variáveis é que, em caso de, por exemplo, precisarmos alterar a fonte padrão do site, nós não teremos que ir em cada parte do código e trocar, apenas ir no arquivo de variáveis e alterar lá o valor padrão.
 A sintaxe de variável é **$nome-da-variavel: valor;**
 
+## MIXINS
+
+Funcionam como funções e as declaramos da seguinte forma: **@mixin name($arg1, $arg2){ }**.
+Além disso, as importamos com: **include mixin-name(arg1, arg2)**.
+
 ## CÓDIGOS VSCODE
 
 - CTRL + ; -> comenta uma linha inteira
