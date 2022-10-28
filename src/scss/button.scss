@@ -14,18 +14,14 @@
   &:disabled {
     background-color: gray;
   }
-}
-.btn-primary {
-  @extend .btn;
-  @include button-style(
-    $primary-color,
-    $hover-color
-  ); // usando o mixin "button-style"
-}
-.btn-secondary {
-  @extend .btn;
-  background-color: $secondary-color;
-  &:hover {
-    background-color: $hover-color;
+  &.btn-primary {
+    // usando o mixin "button-style"
+    @include button-style($primary-color, $hover-color);
+  }
+  &.btn-secondary {
+    @include button-style($secondary-color, $hover-color);
+  }
+  &.btn-success {
+    @include button-style($success-color, $hover-color);
   }
 }
