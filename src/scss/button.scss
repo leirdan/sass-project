@@ -1,7 +1,8 @@
 @mixin button-style($back-color, $hover-color) {
   background-color: $back-color;
   &:hover {
-    background-color: $hover-color;
+    // todo botão, quando passar por cima, vai escurecer 8% da sua cor
+    background-color: darken($color: $back-color, $amount: 8%);
   }
 }
 

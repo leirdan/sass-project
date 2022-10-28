@@ -12,19 +12,19 @@
   background-color: #6b2aee;
 }
 .btn.btn-primary:hover {
-  background-color: darkblue;
+  background-color: #5512de;
 }
 .btn.btn-secondary {
   background-color: #02e7d9;
 }
 .btn.btn-secondary:hover {
-  background-color: darkblue;
+  background-color: #02bfb3;
 }
 .btn.btn-success {
   background-color: #00d34d;
 }
 .btn.btn-success:hover {
-  background-color: darkblue;
+  background-color: #00aa3e;
 }
 
 .mt-2 {
