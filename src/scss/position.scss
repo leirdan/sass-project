@@ -1,27 +1,26 @@
-@mixin margin($mt, $me, $ms, $mb) {
-  margin: $mt, $me, $mb, $ms;
+@mixin margin-top($mt) {
+  margin-top: $mt;
 }
 .mt-2 {
-  @include margin(2px, 0, 0, 0);
+  @include margin-top(2px);
 }
 .mt-3 {
-  @include margin(3px, 0, 0, 0);
+  @include margin-top(3px);
 }
 .mt-4 {
-  @include margin(4px, 0, 0, 0);
+  @include margin-top(4px);
 }
 .text-center {
   text-align: center;
 }
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  flex-direction: row;
-  align-items: center;
-}
-
-#form-texts {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  box-sizing: border-box;
+  &.start {
+    &.result-dices {
+      margin: 10px;
+      padding: 25px;
+      border: 5px solid white;
+    }
+  }
 }

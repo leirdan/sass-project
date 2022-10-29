@@ -19,3 +19,7 @@
 - Após isso, devemos dar o seguinte comando: _sass src/scss/style.scss:src/css/style.css --watch_
 - O comando acima compila o arquivo "style.scss" em "style.css" dentro da pasta "src"
 - Outra alternativa: _sass . --watch_, que monitora e compila todos os arquivos SASS do projeto.
+
+## 4. OUTROS COMANDOS
+
+- **Minificação**: formata o arquivo final CSS de modo a deixar todo o código em uma única linha, tornando-o mais leve e rápido de ser lido pelo navegador. Para isso, insira _sass src/scss/style.scss:src/css/style.css --watch --style compressed_.
