@@ -1,6 +1,12 @@
 @mixin margin-top($mt) {
   margin-top: $mt;
 }
+@mixin margin-left($ml) {
+  margin-left: $ml;
+}
+.ml-2 {
+  @include margin-left(2px);
+}
 .mt-2 {
   @include margin-top(2px);
 }

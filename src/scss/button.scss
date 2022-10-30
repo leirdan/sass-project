@@ -22,8 +22,8 @@
   &.btn-secondary {
     @include button-style($secondary-color);
   }
-  &.btn-continue {
-    @include button-style($continue-color);
+  &.btn-warning {
+    @include button-style($warning-color);
   }
   &.btn-exit {
     @include button-style($exit-color);
