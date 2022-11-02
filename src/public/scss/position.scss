@@ -16,17 +16,28 @@
 .mt-4 {
   @include margin-top(4px);
 }
+.mt-5 {
+  @include margin-top(5px);
+}
 .text-center {
   text-align: center;
 }
-.container {
-  display: block;
-  box-sizing: border-box;
-  &.start {
-    &.result-dices {
-      margin: 10px;
-      padding: 25px;
-      border: 5px solid white;
-    }
+.grid {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template:
+    "title title title" 80px
+    "sidenav content content" 150px
+    "sidenav content content" 100px
+    / 150px 1fr 100px;
+  header {
+    grid-area: title;
+  }
+  .main {
+    grid-area: content;
+  }
+  aside {
+    grid-area: sidenav;
   }
 }

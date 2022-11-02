@@ -10,11 +10,12 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="text-center">Welcome to your character generator!</h1>
-    </header>
-    <main>
-        <div class="container start text-center">
+    <main class="grid">
+        <header>
+            <h1 class="text-center">Welcome to your character generator!</h1>
+        </header>
+
+        <div class="main mt-5 text-center">
             <button class="btn btn-primary" id="btn-start" onclick="renderTextContinue()">
                 Roll the dices!
             </button>
@@ -25,6 +26,17 @@
                 <p id="question"></p>
             </div>
         </div>
+        <aside>
+            <div>
+                <h1>Get more info</h1>
+                <ul>
+                    <li><a href="" class="link-info">Create an iconic character's name</a></li>
+                    <li><a href="">Discover the races in D&D</a></li>
+                    <li><a href="">Which class do I belong?</a></li>
+                    <li><a href="">The fantastic universe of magic</a></li>
+                </ul>
+            </div>
+        </aside>
     </main>
     <script src="/fragments/mainPage.js"></script>
 </body>

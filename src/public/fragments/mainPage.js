@@ -48,7 +48,10 @@ btnSubmitName.addEventListener("click", () => {
   const name = document.getElementById("name").value;
   if (name) {
     renderDices(name);
+  } else {
+    alert("Insert your name!");
   }
+  btnReroll.onclick = renderDices(name);
 });
 
 const renderDices = (name) => {

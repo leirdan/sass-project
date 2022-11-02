@@ -22,4 +22,4 @@
 
 ## 4. OUTROS COMANDOS
 
-- **Minificação**: formata o arquivo final CSS de modo a deixar todo o código em uma única linha, tornando-o mais leve e rápido de ser lido pelo navegador. Para isso, insira _sass src/scss/style.scss:src/css/style.css --watch --style compressed_.
+- **Minificação**: formata o arquivo final CSS de modo a deixar todo o código em uma única linha, tornando-o mais leve e rápido de ser lido pelo navegador. Para isso, insira _sass src/public/scss/style.scss:src/public/css/style.css --watch --style compressed_.
