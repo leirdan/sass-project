@@ -13,6 +13,7 @@ input.id = "name";
 input.nodeType = "text";
 btnContinue.classList = "btn btn-primary";
 btnReroll.classList = "btn btn-warning";
+btnReroll.id = "reroll";
 btnSubmitName.classList = "btn btn-secondary mt-3 text-center";
 btnSubmitName.textContent = "Send";
 
@@ -51,7 +52,6 @@ btnSubmitName.addEventListener("click", () => {
   } else {
     alert("Insert your name!");
   }
-  btnReroll.onclick = renderDices(name);
 });
 
 const renderDices = (name) => {
@@ -69,3 +69,8 @@ const renderDices = (name) => {
   div.appendChild(btnContinue);
   btnStart.disabled = true;
 };
+
+btnReroll.addEventListener("click", () => {
+  const name = document.getElementById("name").value;
+  renderDices(name);
+});
