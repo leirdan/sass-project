@@ -1,3 +1,19 @@
 @mixin link-style($link-color) {
   color: $link-color;
+  &:hover {
+    color: darken($color: $link-color, $amount: 8%);
+  }
+  &:active {
+    color: desaturate($color: $link-color, $amount: 10%);
+  }
+  &:visited {
+    color: #908a8a;
+  }
+}
+
+.link {
+  @include link-style($link-color);
+}
+.no-decoration {
+  text-decoration: none;
 }
